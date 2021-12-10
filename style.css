@@ -20,9 +20,9 @@ main{
 .icon{
     grid-column: 1/2;
     margin-top: 2px;
-    font-size: 42px;
-    width: 48px;
-    height: 45px;
+    font-size: 50px;
+    width: 53px;
+    height: 58px;
     margin-left: 30px;
     border-radius: 10px;
 }

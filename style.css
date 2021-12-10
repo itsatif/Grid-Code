@@ -12,6 +12,7 @@ main{
     height: 100%;
     display: grid;
     grid-template:repeat(12,1fr)/repeat(12,1fr);
+    grid-gap: 10px;
     background-color:#272727;
     font-family: 'Lato', sans-serif;
 }
@@ -28,17 +29,20 @@ main{
 
 .icon:hover{
     background-color: #4d4d50;
-    transition: .2ms ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .fname{
     grid-column: 2/4;
     margin:5px;
     font-size: 100%;
+    width: 70px;
     font-family: 'Lato', sans-serif;
+    color: blue;
 }
 
 .user:hover{
+    border-radius: 10px;
     background-color: #4d4d50;
     transition: .2ms ease-in-out;
 }
@@ -178,9 +182,10 @@ main{
 
 .htm{
     /*background-color:#272727;*/
-    background-color:white;
-    grid-column: 1/5;
-    grid-row: 2/6;
+    background-color:black;
+    color: blue;
+    grid-column: 1/6;
+    grid-row: 2/7;
 }
 
 .htm h4{
@@ -188,9 +193,10 @@ main{
 }
 
 .css{
-    background-color: white;
+    background-color: black;
+    color: blue;
     grid-row: 7/12;
-    grid-column: 1/5;
+    grid-column: 1/6;
 }
 
 .btn5{
@@ -268,7 +274,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:white;
-    grid-row: 2/12;
+    background-color:black;
+    grid-row: 2/-1;
     grid-column: 6/-1;
+    color: blue;
 }
